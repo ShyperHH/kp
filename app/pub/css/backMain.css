@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+.container-board{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 10px 0 10px;
+}
+.block-board{
+    overflow: auto;
+    display: inline;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    color: #050087;
+    box-shadow: 0 0 2px 2px #ccc;
+}
+.block-curtain{
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+}
+.block-desc-task{
+    display: none;
+    overflow: auto;
+    width: 80vw;
+    padding: 25px;
+    height: 90%;
+    background: white;
+}
+.card {
+    text-align: center;
+    padding: 20px;
+}
+.toast{
+    position: fixed;
+    top:10px;
+    right: 10px;
+    z-index: 2;
+}
+.notification-success{
+    display: block !important;
+    background: #d1e7dd !important;
+}
+.notification-error{
+    display: block !important;
+    background: #f8d7da !important;
+}
+.notification-usually{
+    display: block !important;
+    background: #cfe2ff !important;
+}
+.hrefOnTasks{
+    display: block;
+    z-index: 1;
+}
+textarea{
+    width: 94vw;
+}
+.redP{
+    color: red;
+}
+
